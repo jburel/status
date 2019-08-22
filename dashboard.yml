@@ -5,11 +5,51 @@
   - repo: ome/bioformats
     badges: travis
 
-- name: OMERO packages
+  - repo: ome/bio-formats-examples
+    badges: travis
+
+- name: OMERO Java packages
+
+  packages:
+
+  - repo: ome/openmicroscopy
+    badges: travis
+
+  - repo: ome/omero-model
+    badges: travis
+
+  - repo: ome/omero-common
+    badges: travis
+
+  - repo: ome/omero-romio
+    badges: travis
+
+  - repo: ome/omero-rendering
+    badges: travis
+
+  - repo: ome/omero-server
+    badges: travis
+
+  - repo: ome/omero-blitz
+    badges: travis
+
+- name: OMERO Python packages
 
   packages:
 
   - repo: ome/omero-py
+    badges: travis, pypi
+
+  - repo: ome/omero-web
+    badges: travis, pypi
+
+  - repo: ome/omero-dropbox
+    badges: travis, pypi
+
+  - repo: ome/omero-marshal
+    badges: travis, pypi
+
+  - repo: ome/omero-cli-render
     badges: travis, pypi
 
 - name: Training packages
