@@ -10,8 +10,8 @@ python:
 
 install:
   - pip install pyyaml jinja2 requests
-  - git config --global user.name "intakebot"
-  - git config --global user.email "intakebot"
+  - git config --global user.name "omereleases"
+  - git config --global user.email "omereleases@gmail.com"
   - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
   - git fetch --all
 
